@@ -1,0 +1,8 @@
+CREATE TABLE Files (
+    file_id int NOT NULL,
+    file_owner int NOT NULL,
+    group_owner int NOT NULL,
+    permissions int NOT NULL,
+    parent int NOT NULL,
+    PRIMARY KEY(file_id)
+);
